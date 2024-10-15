@@ -43,7 +43,6 @@ public:
 	}
 
 	void deleteelement(int key){
-		
 		if(start == nullptr){
 			cout<<"list does not have sufficient nodes"<<endl;
 		}else{
@@ -74,6 +73,12 @@ public:
 			}
 			
 		}
+	}
+
+	void deleteinalternate(){
+		Node *p = start;
+		Node *q = nullptr;
+
 	}
 
 	// curcular insertion in linked list

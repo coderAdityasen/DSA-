@@ -25,11 +25,14 @@ void traversalsll(){
         printf("List is empty\n");
         return;
     }
+    int count = 0;
     p = start;
     while (p != NULL) {
         printf("%d ", p->data);
+        count++;
         p = p->next;
     }
+    printf("%d count", count);
     printf("\n");
 }
 
@@ -59,7 +62,7 @@ int main(){
     
     printf("Linked List after insertion at the beginning: ");
     traversalsll();
-
+    traversalsll();
 
 	start = NULL;
 

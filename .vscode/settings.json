@@ -6,6 +6,7 @@
 		"vector": "cpp",
 		"string": "cpp",
 		"stdlib.h": "c",
-		"iostream": "cpp"
+		"iostream": "cpp",
+		"map": "cpp"
 	}
 }
